@@ -8,5 +8,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, '0.0.0.0', () => {
-    console.log(`2good api running on port: ${port}`);
+    console.log(`good api running on port: ${port}`);
 });

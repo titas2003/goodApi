@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nomail25/goodApi#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^4.21.2"
   }
 }
