@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "API for 2GOOD2BTRUE",
   "main": "server.js",
-"scripts": {
-  "build": "tsc",
-  "start": "node server.js",
-  "test": "jest"
-},
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nomail25/goodApi.git"
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/nomail25/goodApi#readme",
   "dependencies": {
     "dotenv": "^17.2.3",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.10"
   }
 }
