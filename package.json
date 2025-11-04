@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "API for 2GOOD2BTRUE",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+"scripts": {
+  "build": "tsc",
+  "start": "node server.js",
+  "test": "jest"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nomail25/goodApi.git"
